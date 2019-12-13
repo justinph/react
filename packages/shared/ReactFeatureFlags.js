@@ -76,7 +76,7 @@ export const flushSuspenseFallbacksInTests = true;
 // the user to see a loading state.
 // Also allows hydration callbacks to fire when a dehydrated boundary gets
 // hydrated or deleted.
-export const enableSuspenseCallback = false;
+export const enableSuspenseCallback = true;
 
 // Part of the simplification of React.createElement so we can eventually move
 // from React.createElement to React.jsx
